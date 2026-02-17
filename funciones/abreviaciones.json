@@ -1,0 +1,94 @@
+{
+    "estatus_atencion_despacho": [
+        "est llegada",
+        "est despachado",
+        "est liberado",
+        "despachado unidad",
+        "est despachado unidad",
+        "unidad ssc01 est"
+    ],
+    "monitoreo_seguimiento": [
+        "enterado monitoreo",
+        "enterado monitoreo conforme",
+        "monitoreo conforme",
+        "finaliza monitoreo"
+    ],
+    "ubicacion_arribo_lugar": [
+        "arribar lugar",
+        "hora arribo",
+        "lugar atte",
+        "lugar atte jvca",
+        "lugar continuar",
+        "lugar continuar recorrido",
+        "retiramos lugar",
+        "retiramos lugar continuar"
+    ],
+    "efectos_situacion_previa": [
+        "efectos lugar",
+        "efectos lugar atte",
+        "anterior efectos",
+        "anterior efectos lugar",
+        "anterior efectos lugar atte"
+    ],
+    "solicitud_atencion_apoyo": [
+        "solicita apoyo",
+        "pide apoyo",
+        "apoyo crp",
+        "acude apoyo",
+        "acude apoyo crp",
+        "apoyo unidad",
+        "apoyo seguridad"
+    ],
+    "corporaciones_autoridades": [
+        "seguridad publica",
+        "policia municipal",
+        "polic municipal",
+        "mando polic",
+        "mando policia",
+        "mando pea",
+        "pea operaciones",
+        "seguridad ciudadana",
+        "seguridad vigilancia"
+    ],
+    "ssc_pms": [
+        "ssc acude",
+        "ssc acude crp",
+        "ssc informa",
+        "pms informa",
+        "pms informa oficial",
+        "unidad ssc01",
+        "ssc01 est"
+    ],
+    "emergencias_911": [
+        "emergencias 911",
+        "servicio emergencias",
+        "servicio emergencias 911",
+        "realiza llamada"
+    ],
+    "unidades_bases": [
+        "unidades unidad",
+        "bases unidades",
+        "bases unidades unidad",
+        "modul bases",
+        "modul bases unidades",
+        "modul bases unidades unidad",
+        "23 modul",
+        "23 modul bases",
+        "23 modul bases unidades",
+        "23 modul bases unidades unidad"
+    ],
+    " ": [
+        "reporta que",
+        "reposta que su",
+        "reposta que un",
+        "reporta en",
+        "reporta en el",
+        "reporta el",
+        "reporta que el",
+        "reporta un",
+        "reporta",
+        "reporta una",
+        "reporta a",
+        "reprta"
+    ]
+}
