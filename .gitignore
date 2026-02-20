@@ -1,0 +1,15 @@
+__pycache__/
+funciones/__pycache__/
+*.pyc
+
+# Archivos intermedios/legacy del flujo anterior
+Reporte_procesado_2.csv
+relaciones_folios_procesado.csv
+folios_cancelados_sin_relacion.csv
+Report_enero_limpieza_actualizado.csv
+Report_enero_limpieza_actualizado_7.csv
+Report_enero_limpieza.csv
+
+# Entradas anómalas fuera del flujo actual
+simulate_token_verification.py
+grafos_componentes.txt

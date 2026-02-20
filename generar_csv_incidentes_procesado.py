@@ -39,13 +39,14 @@ COLS_MAP = {
 TIPO_INCIDENTE_EXCLUIDOS = {'70104'}
 
 
-def procesar_reporte(input_file: str, output_file: str) -> pd.DataFrame:
+def procesar_reporte(input_file: str, output_file: str | None = None) -> pd.DataFrame:
     """
     Lee un CSV de reporte, procesa las notas, asigna comisaría y guarda el resultado.
 
     Args:
         input_file:  Ruta al CSV de entrada.
         output_file: Ruta donde se guardará el CSV procesado.
+                     Si es None, no se escribe archivo intermedio.
 
     Returns:
         DataFrame final procesado.
@@ -102,9 +103,12 @@ def procesar_reporte(input_file: str, output_file: str) -> pd.DataFrame:
     df_out = df_final[cols_to_export].rename(columns=rename_dict)
 
     # ── 8. Exportación ──────────────────────────────────────────────────────
-    print(f"Guardando {len(df_out)} filas en: {output_file}")
-    df_out.to_csv(output_file, index=False, encoding='utf-8')
-    print("Proceso terminado exitosamente.")
+    if output_file:
+        print(f"Guardando {len(df_out)} filas en: {output_file}")
+        df_out.to_csv(output_file, index=False, encoding='utf-8')
+        print("Proceso terminado exitosamente.")
+    else:
+        print("Proceso terminado exitosamente (sin exportar archivo intermedio).")
 
     return df_out
 
